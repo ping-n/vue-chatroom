@@ -29,6 +29,7 @@ export default {
         }).catch(err => {
           console.log(err)
         })
+        this.newMessage = ''
       } else {
         this.feedback = "You must enter a message in order to send one";
       }
